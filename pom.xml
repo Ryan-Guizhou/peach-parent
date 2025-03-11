@@ -48,10 +48,11 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context-indexer</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-context-indexer</artifactId>-->
+<!--            <optional>true</optional> &lt;!&ndash; 标记为可选依赖 &ndash;&gt;-->
+<!--        </dependency>-->
 
         <!-- springboot 依赖修改 -->
         <dependency>
@@ -268,6 +269,10 @@
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>org.mybatis</groupId>
