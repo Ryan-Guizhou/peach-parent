@@ -35,6 +35,7 @@
         <commons-io.version>2.16.1</commons-io.version>
         <commons-langs.version>3.6</commons-langs.version>
         <guava.version>27.0.1-jre</guava.version>
+        <guava-retry.version>2.0.0</guava-retry.version>
         <spring.version>5.3.18</spring.version>
         <fastjson.version>2.0.21</fastjson.version>
         <mybatis-srping.version>2.0.7</mybatis-srping.version>
@@ -245,6 +246,10 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.github.rholder</groupId>
+            <artifactId>guava-retrying</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -408,6 +413,11 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.rholder</groupId>
+                <artifactId>guava-retrying</artifactId>
+                <version>${guava-retry.version}</version>
             </dependency>
 
             <dependency>
