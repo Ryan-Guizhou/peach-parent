@@ -46,6 +46,7 @@
         <minio.version>8.5.12</minio.version>
         <okhttp3.version>4.9.3</okhttp3.version>
         <cos.version>5.6.227</cos.version>
+        <user-agent.version>1.2.3</user-agent.version>
     </properties>
 
     <dependencies>
@@ -349,6 +350,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>user-agent-utils</groupId>
+                <artifactId>user-agent-utils</artifactId>
+                <version>${user-agent.version}</version>
+            </dependency>
             <dependency>
                 <groupId>io.minio</groupId>
                 <artifactId>minio</artifactId>
