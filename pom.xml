@@ -41,7 +41,6 @@
         <mybatis-srping.version>2.0.7</mybatis-srping.version>
         <mybatis.version>3.5.13</mybatis.version>
         <knif4j.version>3.0.3</knif4j.version>
-        <swagger.version>3.0.0</swagger.version>
         <pagehelper.version>5.3.2</pagehelper.version>
         <minio.version>8.5.12</minio.version>
         <okhttp3.version>4.9.3</okhttp3.version>
@@ -336,14 +335,6 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-        </dependency>
 
     </dependencies>
 
@@ -376,16 +367,6 @@
                 <groupId>com.squareup.okhttp3</groupId>
                 <artifactId>okhttp</artifactId>
                 <version>${okhttp3.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger-ui</artifactId>
-                <version>${swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger2</artifactId>
-                <version>${swagger.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
