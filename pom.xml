@@ -46,7 +46,8 @@
         <okhttp3.version>4.9.3</okhttp3.version>
         <cos.version>5.6.227</cos.version>
         <user-agent.version>1.2.3</user-agent.version>
-        <sa-token.version>1.34.0</sa-token.version>
+        <sa-token.version>1.37.0</sa-token.version>
+        <jsch.version>0.1.55</jsch.version>
     </properties>
 
     <dependencies>
@@ -517,6 +518,12 @@
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-access</artifactId>
                 <version>${logback.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jcraft</groupId>
+                <artifactId>jsch</artifactId>
+                <version>${jsch.version}</version>
             </dependency>
         </dependencies>
 
