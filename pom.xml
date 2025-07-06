@@ -48,6 +48,7 @@
         <user-agent.version>1.2.3</user-agent.version>
         <sa-token.version>1.37.0</sa-token.version>
         <jsch.version>0.1.55</jsch.version>
+        <obs.version>3.24.9</obs.version>
     </properties>
 
     <dependencies>
@@ -524,6 +525,12 @@
                 <groupId>com.jcraft</groupId>
                 <artifactId>jsch</artifactId>
                 <version>${jsch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huaweicloud</groupId>
+                <artifactId>esdk-obs-java-bundle</artifactId>
+                <version>${obs.version}</version>
             </dependency>
         </dependencies>
 
