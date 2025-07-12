@@ -49,6 +49,8 @@
         <sa-token.version>1.37.0</sa-token.version>
         <jsch.version>0.1.55</jsch.version>
         <obs.version>3.24.9</obs.version>
+        <etcd.version>0.7.5</etcd.version>
+        <curator.version>5.1.0</curator.version>
     </properties>
 
     <dependencies>
@@ -531,6 +533,23 @@
                 <groupId>com.huaweicloud</groupId>
                 <artifactId>esdk-obs-java-bundle</artifactId>
                 <version>${obs.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.etcd</groupId>
+                <artifactId>jetcd-core</artifactId>
+                <version>${etcd.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator.version}</version>
             </dependency>
         </dependencies>
 
